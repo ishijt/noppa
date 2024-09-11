@@ -13,5 +13,5 @@ const rollDice = () => {
     prevNumber = rolledNumber
 }
 
-const diceI = document.querySelector('#dice')
+const diceI = document.querySelector('#dice-image')
 diceI.addEventListener('click', rollDice)
