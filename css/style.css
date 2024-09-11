@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dice-image {
+    width: 250px;
+}
+
+#dice-image:hover {
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+}
+
+#tracker {
+    margin-top: 5px;
+    text-align: center;
+}
