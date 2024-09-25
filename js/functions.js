@@ -6,11 +6,6 @@ const rollDice = () => {
     
     const rolledNumber = Math.floor(Math.random() * 6) + 1
     diceImage.src = `./img/${rolledNumber}.png`
-
-    if (prevNumber !== null) {
-        prevNumberElement.textContent = prevNumber
-    }
-    prevNumber = rolledNumber
 }
 
 const diceI = document.querySelector('#dice-image')
